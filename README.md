@@ -66,7 +66,7 @@ A pseudo-graphical configuration interface will appear.
     · ENTER to interact with the menu;
     · ESC key to perform an “emergency exit”, in case you modify something unwillingly and you don't know how to restore it.
 
-You can choose not to touch anything in order to get a newer version with no effort or learn how to recognize your hardware components here.
+You can choose not to touch anything in order to get a newer version with no effort or learn how to recognize your hardware components [here](https://wiki.gentoo.org/wiki/Hardware_detection).
 
 Save and exit the configuration menu.
 
