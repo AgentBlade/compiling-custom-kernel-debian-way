@@ -1,5 +1,7 @@
 # Compile a custom kernel "the Debian way"
 
+**[Associated tutorial video](https://www.youtube.com/watch?v=81BORKzvDOw)**
+
 **Build dependencies.**
 
 Install build tools.
@@ -11,7 +13,7 @@ After that drop administrative privileges, you don't need to use sudo or the roo
 
 **Download the kernel source.**
 
-Visit https://kernel.org and download the version you prefer. 
+Visit [kernel.org](https://kernel.org) and download the version you prefer. 
 Untar the archive using:
 
     tar -xf linux-4.x.x.tar.xz
