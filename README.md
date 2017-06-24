@@ -13,7 +13,17 @@ After that drop administrative privileges, you don't need to use sudo or the roo
 
 **Download the kernel source.**
 
+You can either stick with the version that your distro is currently providing by running:
+    
+    apt install linux-source
+
+The source files will be stored in '/usr/src/'
+
+OR
+
 Visit [kernel.org](https://kernel.org) and download the version you prefer. 
+
+
 Untar the archive using:
 
     tar -xf linux-4.x.x.tar.xz
@@ -72,7 +82,7 @@ Save and exit the configuration menu.
 
 **Compile the kernel and create two .deb packages for an easy installation.**
 
-    fakeroot make-kpkg -j --initrd kernel_image kernel_headers
+    fakeroot make-kpkg -j $(($(nproc)+1)) --initrd kernel_image kernel_headers
 
 ***using the menu***
 
