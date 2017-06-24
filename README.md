@@ -51,10 +51,6 @@ Enter in it:
 
     cd linux
 
-or:
-
-    cd linux-4.x.x
-
 Create a configuration file based on the current kernel's one and rename it “.config”:
 
     cp /boot/config-$(uname -r) .config
