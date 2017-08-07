@@ -78,7 +78,7 @@ Save and exit the configuration menu.
 
 **Compile the kernel and create two .deb packages for an easy installation.**
 
-    fakeroot make deb-pkg -j $(($(nproc)+1)) 
+     fakeroot make deb-pkg -j $(($(nproc)+1)) 
 
 ***using the menu***
 
